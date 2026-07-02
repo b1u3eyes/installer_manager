@@ -1,0 +1,46 @@
+{
+  "software_path": "C:\\Users\\b1u3eyes\\Desktop\\AI App\\Software",
+  "favorites": [
+    "C:\\Users\\b1u3eyes\\Desktop\\AI App\\Software\\opera_setup.exe"
+  ],
+  "hidden": [],
+  "custom_names": {},
+  "custom_descriptions": {},
+  "categories": [
+    {
+      "id": "7320e4b7-2a18-4a20-85df-bfa14b29c702",
+      "name": "Browsere",
+      "icon": "🌐",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "6d79cfdd-f170-4ed6-a146-0ab4f71e7d7d",
+      "name": "Utilitare",
+      "icon": "🛠",
+      "color": "#f59e0b"
+    },
+    {
+      "id": "f343364e-20a8-460b-91ca-bfbc90eb83b7",
+      "name": "Multimedia",
+      "icon": "🎬",
+      "color": "#ef4444"
+    },
+    {
+      "id": "dd2490f1-d4a1-483d-9b0a-7cd9956f9070",
+      "name": "Jocuri",
+      "icon": "🎮",
+      "color": "#8b5cf6"
+    },
+    {
+      "id": "04d2526c-9516-4177-9345-645da49f3eeb",
+      "name": "Diverse",
+      "icon": "📦",
+      "color": "#10b981"
+    }
+  ],
+  "assignments": {
+    "C:\\Users\\b1u3eyes\\Desktop\\AI App\\Software\\opera_setup.exe": "7320e4b7-2a18-4a20-85df-bfa14b29c702",
+    "C:\\Users\\b1u3eyes\\Desktop\\AI App\\Software\\vlc_setup.exe": "6d79cfdd-f170-4ed6-a146-0ab4f71e7d7d",
+    "C:\\Users\\b1u3eyes\\Desktop\\AI App\\Software\\discord.exe": "f343364e-20a8-460b-91ca-bfbc90eb83b7"
+  }
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "888c6d6a-ed89-4d28-9cce-3522ba42b2b4",
+    "name": "Flush DNS",
+    "description": "Curăță cache-ul DNS Windows.",
+    "command": "ipconfig /flushdns",
+    "category": "Network",
+    "tags": [
+      "dns",
+      "network",
+      "internet"
+    ],
+    "favorite": true,
+    "requires_admin": true,
+    "danger_level": "SAFE",
+    "last_run": null,
+    "last_status": null,
+    "created_at": "1781274324"
+  },
+  {
+    "id": "58ee1942-3839-4022-b2d2-8805bcacee55",
+    "name": "Restart Explorer",
+    "description": "Repornește Windows Explorer (shell-ul desktopului).",
+    "command": "taskkill /f /im explorer.exe && start explorer.exe",
+    "category": "System",
+    "tags": [
+      "explorer",
+      "shell",
+      "restart"
+    ],
+    "favorite": false,
+    "requires_admin": false,
+    "danger_level": "ADMIN",
+    "last_run": null,
+    "last_status": null,
+    "created_at": "1781274324"
+  },
+  {
+    "id": "1ab0dbf5-5e6d-4e03-af57-7b5bca3f5a0f",
+    "name": "Clear Temp Files",
+    "description": "Șterge toate fișierele temporare din %TEMP%.",
+    "command": "del /q /s %TEMP%\\* 2>nul && for /d %%i in (%TEMP%\\*) do rmdir /s /q %%i 2>nul",
+    "category": "Cleanup",
+    "tags": [
+      "temp",
+      "cleanup",
+      "disk"
+    ],
+    "favorite": true,
+    "requires_admin": false,
+    "danger_level": "DANGEROUS",
+    "last_run": null,
+    "last_status": null,
+    "created_at": "1781274324"
+  },
+  {
+    "id": "e239f545-cc49-450c-87c3-a74628e71f3d",
+    "name": "Check Disk",
+    "description": "Verifică integritatea discului C: pentru erori de sistem.",
+    "command": "chkdsk /f C:",
+    "category": "System",
+    "tags": [
+      "disk",
+      "chkdsk",
+      "repair"
+    ],
+    "favorite": false,
+    "requires_admin": true,
+    "danger_level": "DANGEROUS",
+    "last_run": null,
+    "last_status": null,
+    "created_at": "1781274324"
+  },
+  {
+    "id": "5a6f889e-6198-4173-b46b-0965c392d0f8",
+    "name": "SFC Scan",
+    "description": "Scanează și repară fișierele de sistem Windows.",
+    "command": "sfc /scannow",
+    "category": "System",
+    "tags": [
+      "sfc",
+      "repair",
+      "system"
+    ],
+    "favorite": false,
+    "requires_admin": true,
+    "danger_level": "DANGEROUS",
+    "last_run": null,
+    "last_status": null,
+    "created_at": "1781274324"
+  },
+  {
+    "id": "d3ee6882-e5c2-4a15-a90d-2f24e81d1aa3",
+    "name": "IP Release",
+    "description": "Eliberează adresa IP curentă.",
+    "command": "ipconfig /release",
+    "category": "Network",
+    "tags": [
+      "ip",
+      "network",
+      "release"
+    ],
+    "favorite": false,
+    "requires_admin": true,
+    "danger_level": "SAFE",
+    "last_run": null,
+    "last_status": null,
+    "created_at": "1781274324"
+  },
+  {
+    "id": "120e07c3-9333-4cd4-8576-240ee66c103f",
+    "name": "IP Renew",
+    "description": "Reînnoiește adresa IP de la serverul DHCP.",
+    "command": "ipconfig /renew",
+    "category": "Network",
+    "tags": [
+      "ip",
+      "network",
+      "renew"
+    ],
+    "favorite": false,
+    "requires_admin": true,
+    "danger_level": "SAFE",
+    "last_run": null,
+    "last_status": null,
+    "created_at": "1781274324"
+  },
+  {
+    "id": "05e3bd18-2b98-4232-9820-c3cc912acc97",
+    "name": "System Info",
+    "description": "Afișează informații detaliate despre sistemul Windows.",
+    "command": "systeminfo",
+    "category": "System",
+    "tags": [
+      "system",
+      "info",
+      "diagnostic"
+    ],
+    "favorite": false,
+    "requires_admin": false,
+    "danger_level": "SAFE",
+    "last_run": null,
+    "last_status": null,
+    "created_at": "1781274324"
+  },
+  {
+    "id": "50f2d07a-d53f-4b79-a345-44d3c17786a1",
+    "name": "Power Efficiency",
+    "description": "Generează raport detaliat despre eficiența energetică.",
+    "command": "powercfg /energy",
+    "category": "System",
+    "tags": [
+      "power",
+      "energy",
+      "report"
+    ],
+    "favorite": false,
+    "requires_admin": true,
+    "danger_level": "ADMIN",
+    "last_run": null,
+    "last_status": null,
+    "created_at": "1781274324"
+  },
+  {
+    "id": "ff10923d-76b8-49c3-b372-c55181c2a704",
+    "name": "Disk Cleanup",
+    "description": "Lansează instrumentul de curățare a discului.",
+    "command": "cleanmgr /sagerun:1",
+    "category": "Cleanup",
+    "tags": [
+      "disk",
+      "cleanup",
+      "space"
+    ],
+    "favorite": false,
+    "requires_admin": false,
+    "danger_level": "DANGEROUS",
+    "last_run": null,
+    "last_status": null,
+    "created_at": "1781274324"
+  }
+]
